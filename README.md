@@ -62,13 +62,13 @@ helm show values ./upcommerce -n sre
 helm show readme ./upcommerce -n sre
 ```
 
-# Check your chart for issues
+- Check your chart for issues
 
 ```sh
 helm lint ./upcommerce -n sre
 ```
 
-# Render templates without installing
+- Render templates without installing
 
 ```sh
 helm template upcommerce ./upcommerce -n sre
